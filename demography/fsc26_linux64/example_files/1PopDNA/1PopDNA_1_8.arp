@@ -1,0 +1,43 @@
+#Arlequin input file written by the simulation program fastsimcoal2
+
+[Profile]
+	Title="A series of simulated samples"
+	NbSamples=1
+
+	GenotypicData=0
+	GameticPhase=0
+	RecessiveData=0
+	DataType=DNA
+	LocusSeparator=NONE
+	MissingData='?'
+
+[Data]
+	[[Samples]]
+
+#Number of independent chromosomes: 1
+#Total number of polymorphic sites: 20
+# 20 polymorphic positions on chromosome 1
+#416, 2432, 3461, 4595, 4744, 4747, 5354, 5529, 5699, 6417, 6505, 7932, 7958, 8428, 8582, 8673, 8707, 9026, 9692, 9760
+		SampleName="Sample 1"
+		SampleSize=10
+		SampleData= {
+1_1	1	CATCTCATTATCCTTCCGCC
+1_2	1	CACCTAACTCTCCTTCCGCC
+1_3	1	CACCTAACTCTCCTTCCGCC
+1_4	1	CACCTCATTCTCTTTCGGGC
+1_5	1	CATCTCATTATCCTTCCGCC
+1_6	1	TTCAGCATTCTGCCGACGCG
+1_7	1	CACCTCTTTCTCCTTCCCCC
+1_8	1	CACCTCATTCTCTTTCGGGC
+1_9	1	TTCAGCATTCTGCTGACGCG
+1_10	1	CACCTCATACGCCTTCCGCC
+
+}
+
+[[Structure]]
+
+	StructureName="Simulated data"
+	NbGroups=1
+	Group={
+	   "Sample 1"
+	}
