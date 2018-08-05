@@ -1,0 +1,103 @@
+//Parameters for the coalescence simulation program : fastsimcoal.exe
+12 samples to simulate :
+//Population effective sizes (number of genes)
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+20000000
+20000000
+//Samples sizes and samples age 
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+0
+0
+//Growth rates	: negative growth implies population expansion
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+//Number of migration matrices : 0 implies no migration between demes
+3
+//Migration matrix 0
+0	0	0	0	0	0	0	0	0	0	7.276556737172309e-02	0
+0	0	0	0	0	0	0	0	0	0	2.398109248635334e-04	0
+0	0	0	0	0	0	0	0	0	0	1.462761576959022e-02	0
+0	0	0	0	0	0	0	0	0	0	3.376157138097806e-02	0
+0	0	0	0	0	0	0	0	0	0	1.640583033979343e-02	0
+0	0	0	0	0	0	0	0	0	0	0	1.143222417588145e-05
+0	0	0	0	0	0	0	0	0	0	0	3.025443619003806e-04
+0	0	0	0	0	0	0	0	0	0	0	3.201902564606292e-05
+0	0	0	0	0	0	0	0	0	0	0	2.609164494421366e-05
+0	0	0	0	0	0	0	0	0	0	0	1.258085613147857e-04
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+//Migration matrix 1
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	1.143222417588145e-05
+0	0	0	0	0	0	0	0	0	0	0	3.025443619003806e-04
+0	0	0	0	0	0	0	0	0	0	0	3.201902564606292e-05
+0	0	0	0	0	0	0	0	0	0	0	2.609164494421366e-05
+0	0	0	0	0	0	0	0	0	0	0	1.258085613147857e-04
+0	0	0	0	0	0	0	0	0	0	0	2.860040850849810e-05
+0	0	0	0	0	0	0	0	0	0	0	0
+//Migration matrix 2
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0
+//historical event: time, source, sink, migrants, new deme size, new growth rate, migration matrix index
+13 historical event
+3682 0 10 1 1 0 1
+3682 1 10 1 1 0 1
+3682 2 10 1 1 0 1
+3682 3 10 1 1 0 1
+3682 4 10 1 1 0 1
+3682 10 10 0 0.0001 0 1
+13957 5 11 1 1 0 2
+13957 6 11 1 1 0 2
+13957 7 11 1 1 0 2
+13957 8 11 1 1 0 2
+13957 9 11 1 1 0 2
+13957 10 11 1 1 0 2
+13957 11 11 0 1.723900000000000e-03 0 2
+//Number of independent loci [chromosome] 
+1 0
+//Per chromosome: Number of contiguous linkage Block: a block is a set of contiguous loci
+1
+//per Block:data type, number of loci, per generation recombination and mutation rates and optional parameters
+FREQ 1 0 2.5e-8
