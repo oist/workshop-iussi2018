@@ -1,0 +1,57 @@
+fastsimcoal was invoked with the following command line arguments:
+/work/MikheyevU/Maeva/demography/fsc26_linux64/fsc26 --tplfile 2PopDiv20Mb.tpl --estfile 2PopDiv20Mb.est -m --numsims 100000 -M --minnumloops 10 --numloops 40 -c 10 
+Reading parameter settings file 2PopDiv20Mb.est...
+done reading parameter settings file!
+
+Random generator seed : 985998
+
+Deme sizes
+Deme 0	1419
+Deme 1	3620
+
+
+Sample sizes
+Deme 0	5
+Deme 1	5
+
+Sample ages
+Deme 0	0
+Deme 1	0
+
+Growth rates
+Deme 0	0
+Deme 1	0
+
+
+Historical events
+Event 0
+
+#Time             : 98085
+#Source           : 1
+#Sink             : 0
+#Migrants         : 1
+#New size         : 824.429
+#New growth rate  : 0
+#New migr. matrix : 0
+
+
+
+Number of independent loci to simulate : 1
+with the same chromosomal structure
+
+Number of linkage blocks to simulate in structure 1: 1
+Data type: FREQ   :  recombination and mutation rates
+0.0000000000   0.0000000250   
+   Output expected MAF spectrum
+   Do not output expected DAF spectrum
+
+No population growth detected in input file
+
+Estimating model parameters using 12 batches and 10 threads
+
+Observed data file ("../2PopDiv20Mb_jointMAFpop1_0.obs") does not seem to be present
+Unable to compute the likelihood 
+TSimSettings::performBrenMinimization: Unable to read observed SFS and to estimate parameters ...
+
+Program total execution time: 0.314 seconds
+
