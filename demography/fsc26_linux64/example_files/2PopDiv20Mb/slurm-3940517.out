@@ -1,0 +1,1062 @@
+fastsimcoal was invoked with the following command line arguments:
+/work/MikheyevU/Maeva/demography/fsc26_linux64/fsc26 --tplfile 2PopDiv20Mb.tpl --estfile 2PopDiv20Mb.est -d --numsims 100000 -M --minnumloops 10 --numloops 40 -c 10 
+Reading parameter settings file 2PopDiv20Mb.est...
+done reading parameter settings file!
+
+Random generator seed : 552214
+
+Deme sizes
+Deme 0	86
+Deme 1	2086726
+
+
+Sample sizes
+Deme 0	5
+Deme 1	5
+
+Sample ages
+Deme 0	0
+Deme 1	0
+
+Growth rates
+Deme 0	0
+Deme 1	0
+
+
+Historical events
+Event 0
+
+#Time             : 69416
+#Source           : 1
+#Sink             : 0
+#Migrants         : 1
+#New size         : 9.31395
+#New growth rate  : 0
+#New migr. matrix : 0
+
+
+
+Number of independent loci to simulate : 1
+with the same chromosomal structure
+
+Number of linkage blocks to simulate in structure 1: 1
+Data type: FREQ   :  recombination and mutation rates
+0.0000000000   0.0000000250   
+   Do not output expected MAF spectrum
+   Output expected DAF spectrum
+
+No population growth detected in input file
+
+Estimating model parameters using 12 batches and 10 threads
+
+Estimation of parameters by conditional maximization via Brent algorithm (initial lhood = -162877.0944666829)
+
+Initial parameters:
+86	2086726	801	69416	lhood=-162877.0944666829
+
+
+Current parameters:
+86	2086726	801	69416
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 7401.0000000000 (lhood = -146764.6989288022)
+
+Current parameters:
+7401	2086726	801	69416	(lhood=-146764.6989288022)
+
+Brent minimization result: NPOP2 = 1499.0000000000 (lhood = -86104.1047856773)
+
+Current parameters:
+7401	1499	801	69416	(lhood=-86104.1047856773)
+
+Brent minimization result: NANC = 68.0000000000 (lhood = -85859.6821573436)
+
+Current parameters:
+7401	1499	68	69416	(lhood=-85859.6821573436)
+
+Brent minimization result: TDIV = 5276.0000000000 (lhood = -60487.8313072087)
+
+Current parameters:
+7401	1499	68	5276	(lhood=-60487.8313072087)
+
+
+Iter 1	Curr best params:	7401	1499	68	5276	lhood=-60487.8313072087
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 18626.0000000000 (lhood = -59961.1202589694)
+
+Current parameters:
+18626	1499	68	5276	(lhood=-59961.1202589694)
+
+Brent minimization result: NPOP2 = 991.0000000000 (lhood = -59869.8055864217)
+
+Current parameters:
+18626	991	68	5276	(lhood=-59869.8055864217)
+
+Brent minimization result: NANC = 102.0000000000 (lhood = -59867.6689264601)
+
+Current parameters:
+18626	991	102	5276	(lhood=-59867.6689264601)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59864.3978892773)
+
+Current parameters:
+18626	991	102	5072	(lhood=-59864.3978892773)
+
+
+Iter 2	Curr best params:	18626	991	102	5072	lhood=-59864.3978892773
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6087953423)
+
+Current parameters:
+20550	991	102	5072	(lhood=-59862.6087953423)
+
+Brent minimization result: NPOP2 = 990.0000000000 (lhood = -59862.7364677475)
+
+Current parameters:
+20550	990	102	5072	(lhood=-59862.7364677475)
+
+Brent minimization result: NANC = 112.0000000000 (lhood = -59862.2413305074)
+
+Current parameters:
+20550	990	112	5072	(lhood=-59862.2413305074)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.4191211543)
+
+Current parameters:
+20550	990	112	5072	(lhood=-59862.4191211543)
+
+
+Iter 3	Curr best params:	20550	990	112	5072	lhood=-59862.2413305074
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2628824855)
+
+Current parameters:
+20550	990	112	5072	(lhood=-59862.2628824855)
+
+Brent minimization result: NPOP2 = 989.0000000000 (lhood = -59862.6047570859)
+
+Current parameters:
+20550	989	112	5072	(lhood=-59862.6047570859)
+
+Brent minimization result: NANC = 117.0000000000 (lhood = -59862.3239851902)
+
+Current parameters:
+20550	989	117	5072	(lhood=-59862.3239851902)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.3740126966)
+
+Current parameters:
+20550	989	117	5072	(lhood=-59862.3740126966)
+
+
+Iter 4	Curr best params:	20550	990	112	5072	lhood=-59862.2413305074
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2989957727)
+
+Current parameters:
+20550	989	117	5072	(lhood=-59862.2989957727)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.6137274954)
+
+Current parameters:
+20550	988	117	5072	(lhood=-59862.6137274954)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.3054016265)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.3054016265)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.4731990854)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.4731990854)
+
+
+Iter 5	Curr best params:	20550	990	112	5072	lhood=-59862.2413305074
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5805908342)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.5805908342)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4655331366)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.4655331366)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.3810636209)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.3810636209)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.4594150252)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.4594150252)
+
+
+Iter 6	Curr best params:	20550	990	112	5072	lhood=-59862.2413305074
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2384522220)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.2384522220)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.7364083871)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.7364083871)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.3732416547)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.3732416547)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.4282473493)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.4282473493)
+
+
+Iter 7	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5467695841)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.5467695841)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2598319384)
+
+Current parameters:
+20550	988	111	5072	(lhood=-59862.2598319384)
+
+Brent minimization result: NANC = 105.0000000000 (lhood = -59862.2564002695)
+
+Current parameters:
+20550	988	105	5072	(lhood=-59862.2564002695)
+
+Brent minimization result: TDIV = 5072.0000000000 (lhood = -59862.5572415168)
+
+Current parameters:
+20550	988	105	5072	(lhood=-59862.5572415168)
+
+
+Iter 8	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5844225420)
+
+Current parameters:
+20550	988	105	5072	(lhood=-59862.5844225420)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.5904398057)
+
+Current parameters:
+20550	988	105	5072	(lhood=-59862.5904398057)
+
+Brent minimization result: NANC = 118.0000000000 (lhood = -59862.4073233912)
+
+Current parameters:
+20550	988	118	5072	(lhood=-59862.4073233912)
+
+Brent minimization result: TDIV = 5021.0000000000 (lhood = -59862.5068270666)
+
+Current parameters:
+20550	988	118	5021	(lhood=-59862.5068270666)
+
+
+Iter 9	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6531416473)
+
+Current parameters:
+20550	988	118	5021	(lhood=-59862.6531416473)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.8076470144)
+
+Current parameters:
+20550	988	118	5021	(lhood=-59862.8076470144)
+
+Brent minimization result: NANC = 123.0000000000 (lhood = -59862.6904494304)
+
+Current parameters:
+20550	988	123	5021	(lhood=-59862.6904494304)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.6384981944)
+
+Current parameters:
+20550	988	123	5071	(lhood=-59862.6384981944)
+
+
+Iter 10	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5064124597)
+
+Current parameters:
+20550	988	123	5071	(lhood=-59862.5064124597)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.5656842253)
+
+Current parameters:
+20550	988	123	5071	(lhood=-59862.5656842253)
+
+Brent minimization result: NANC = 117.0000000000 (lhood = -59862.5223403681)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.5223403681)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3434137760)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.3434137760)
+
+
+Iter 11	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2434527448)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.2434527448)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3612816549)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.3612816549)
+
+Brent minimization result: NANC = 117.0000000000 (lhood = -59862.2689861856)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.2689861856)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3898751050)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.3898751050)
+
+
+Iter 12	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2616932511)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.2616932511)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4534459501)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.4534459501)
+
+Brent minimization result: NANC = 117.0000000000 (lhood = -59862.3176337725)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.3176337725)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3515642496)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.3515642496)
+
+
+Iter 13	Curr best params:	20550	988	111	5072	lhood=-59862.2384522220
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.1830716375)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.1830716375)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2563583007)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.2563583007)
+
+Brent minimization result: NANC = 122.0000000000 (lhood = -59862.4933440537)
+
+Current parameters:
+20550	988	122	5071	(lhood=-59862.4933440537)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4397709229)
+
+Current parameters:
+20550	988	122	5071	(lhood=-59862.4397709229)
+
+
+Iter 14	Curr best params:	20550	988	117	5071	lhood=-59862.1830716375
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5927975403)
+
+Current parameters:
+20550	988	122	5071	(lhood=-59862.5927975403)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.7297473254)
+
+Current parameters:
+20550	988	122	5071	(lhood=-59862.7297473254)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.4416118455)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.4416118455)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3963990266)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.3963990266)
+
+
+Iter 15	Curr best params:	20550	988	117	5071	lhood=-59862.1830716375
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3221237288)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.3221237288)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4506518892)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.4506518892)
+
+Brent minimization result: NANC = 119.0000000000 (lhood = -59862.3455369811)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.3455369811)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4251329921)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.4251329921)
+
+
+Iter 16	Curr best params:	20550	988	117	5071	lhood=-59862.1830716375
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6001246749)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.6001246749)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3103899667)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.3103899667)
+
+Brent minimization result: NANC = 113.0000000000 (lhood = -59862.1393662075)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.1393662075)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.6718057801)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.6718057801)
+
+
+Iter 17	Curr best params:	20550	988	113	5071	lhood=-59862.1393662075
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3778862226)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.3778862226)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4571385707)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.4571385707)
+
+Brent minimization result: NANC = 107.0000000000 (lhood = -59862.3306598442)
+
+Current parameters:
+20550	988	107	5071	(lhood=-59862.3306598442)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4089362705)
+
+Current parameters:
+20550	988	107	5071	(lhood=-59862.4089362705)
+
+
+Iter 18	Curr best params:	20550	988	113	5071	lhood=-59862.1393662075
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4299954755)
+
+Current parameters:
+20550	988	107	5071	(lhood=-59862.4299954755)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4844505899)
+
+Current parameters:
+20550	988	107	5071	(lhood=-59862.4844505899)
+
+Brent minimization result: NANC = 112.0000000000 (lhood = -59862.2486954073)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.2486954073)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.0140611441)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.0140611441)
+
+
+Iter 19	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4676880290)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.4676880290)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3695187195)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.3695187195)
+
+Brent minimization result: NANC = 117.0000000000 (lhood = -59862.4353111657)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.4353111657)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4555317790)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.4555317790)
+
+
+Iter 20	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6246556924)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.6246556924)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.1142577037)
+
+Current parameters:
+20550	988	117	5071	(lhood=-59862.1142577037)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.3473109940)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.3473109940)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3168944858)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.3168944858)
+
+
+Iter 21	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.1241997142)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.1241997142)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.6513348998)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.6513348998)
+
+Brent minimization result: NANC = 105.0000000000 (lhood = -59862.3539462952)
+
+Current parameters:
+20550	988	105	5071	(lhood=-59862.3539462952)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5502450520)
+
+Current parameters:
+20550	988	105	5071	(lhood=-59862.5502450520)
+
+
+Iter 22	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4661839164)
+
+Current parameters:
+20550	988	105	5071	(lhood=-59862.4661839164)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3741436731)
+
+Current parameters:
+20550	988	105	5071	(lhood=-59862.3741436731)
+
+Brent minimization result: NANC = 114.0000000000 (lhood = -59862.2886869828)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.2886869828)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5825709017)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.5825709017)
+
+
+Iter 23	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2089369111)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.2089369111)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3949399490)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.3949399490)
+
+Brent minimization result: NANC = 114.0000000000 (lhood = -59862.4088081887)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.4088081887)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4047288738)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.4047288738)
+
+
+Iter 24	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6014705189)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.6014705189)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4448154441)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.4448154441)
+
+Brent minimization result: NANC = 114.0000000000 (lhood = -59862.4075754235)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.4075754235)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5292591467)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.5292591467)
+
+
+Iter 25	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3667681886)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.3667681886)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3000945853)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.3000945853)
+
+Brent minimization result: NANC = 119.0000000000 (lhood = -59862.3714708184)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.3714708184)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5762160151)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.5762160151)
+
+
+Iter 26	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3003467112)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.3003467112)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.5547843001)
+
+Current parameters:
+20550	988	119	5071	(lhood=-59862.5547843001)
+
+Brent minimization result: NANC = 108.0000000000 (lhood = -59862.2207132221)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.2207132221)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3301389687)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.3301389687)
+
+
+Iter 27	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4951684902)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.4951684902)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.6557749018)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.6557749018)
+
+Brent minimization result: NANC = 108.0000000000 (lhood = -59862.4318829964)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.4318829964)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.1896369916)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.1896369916)
+
+
+Iter 28	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3086211339)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.3086211339)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2996408786)
+
+Current parameters:
+20550	988	108	5071	(lhood=-59862.2996408786)
+
+Brent minimization result: NANC = 113.0000000000 (lhood = -59862.3403085826)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.3403085826)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.2413928951)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.2413928951)
+
+
+Iter 29	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.1809274495)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.1809274495)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4373158494)
+
+Current parameters:
+20550	988	113	5071	(lhood=-59862.4373158494)
+
+Brent minimization result: NANC = 118.0000000000 (lhood = -59862.4431124711)
+
+Current parameters:
+20550	988	118	5071	(lhood=-59862.4431124711)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3901566883)
+
+Current parameters:
+20550	988	118	5071	(lhood=-59862.3901566883)
+
+
+Iter 30	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.7160745071)
+
+Current parameters:
+20550	988	118	5071	(lhood=-59862.7160745071)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3587957032)
+
+Current parameters:
+20550	988	118	5071	(lhood=-59862.3587957032)
+
+Brent minimization result: NANC = 112.0000000000 (lhood = -59862.2260152785)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.2260152785)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.2611198256)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.2611198256)
+
+
+Iter 31	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5331657348)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.5331657348)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2301152168)
+
+Current parameters:
+20550	988	112	5071	(lhood=-59862.2301152168)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.1490828179)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.1490828179)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5831874841)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.5831874841)
+
+
+Iter 32	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4699450399)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.4699450399)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4516999667)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.4516999667)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.1945550094)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.1945550094)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.3372709454)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.3372709454)
+
+
+Iter 33	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5607374749)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.5607374749)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2629790752)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.2629790752)
+
+Brent minimization result: NANC = 111.0000000000 (lhood = -59862.1855520908)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.1855520908)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.6440899014)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.6440899014)
+
+
+Iter 34	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.2732896528)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.2732896528)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.6628315183)
+
+Current parameters:
+20550	988	111	5071	(lhood=-59862.6628315183)
+
+Brent minimization result: NANC = 116.0000000000 (lhood = -59862.2780990679)
+
+Current parameters:
+20550	988	116	5071	(lhood=-59862.2780990679)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.2983001628)
+
+Current parameters:
+20550	988	116	5071	(lhood=-59862.2983001628)
+
+
+Iter 35	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4675013116)
+
+Current parameters:
+20550	988	116	5071	(lhood=-59862.4675013116)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4882199038)
+
+Current parameters:
+20550	988	116	5071	(lhood=-59862.4882199038)
+
+Brent minimization result: NANC = 121.0000000000 (lhood = -59862.4743618599)
+
+Current parameters:
+20550	988	121	5071	(lhood=-59862.4743618599)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.4757177990)
+
+Current parameters:
+20550	988	121	5071	(lhood=-59862.4757177990)
+
+
+Iter 36	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.4317933268)
+
+Current parameters:
+20550	988	121	5071	(lhood=-59862.4317933268)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.4994862367)
+
+Current parameters:
+20550	988	121	5071	(lhood=-59862.4994862367)
+
+Brent minimization result: NANC = 120.0000000000 (lhood = -59862.2936381784)
+
+Current parameters:
+20550	988	120	5071	(lhood=-59862.2936381784)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.2705462959)
+
+Current parameters:
+20550	988	120	5071	(lhood=-59862.2705462959)
+
+
+Iter 37	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.6037529369)
+
+Current parameters:
+20550	988	120	5071	(lhood=-59862.6037529369)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.2989700233)
+
+Current parameters:
+20550	988	120	5071	(lhood=-59862.2989700233)
+
+Brent minimization result: NANC = 114.0000000000 (lhood = -59862.2052149382)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.2052149382)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5356386775)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.5356386775)
+
+
+Iter 38	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.3491836411)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.3491836411)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.3732259736)
+
+Current parameters:
+20550	988	114	5071	(lhood=-59862.3732259736)
+
+Brent minimization result: NANC = 125.0000000000 (lhood = -59862.4791843260)
+
+Current parameters:
+20550	988	125	5071	(lhood=-59862.4791843260)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.5309592107)
+
+Current parameters:
+20550	988	125	5071	(lhood=-59862.5309592107)
+
+
+Iter 39	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+100000 simulations per lhood estimation
+
+Brent minimization result: NPOP1 = 20550.0000000000 (lhood = -59862.5927022217)
+
+Current parameters:
+20550	988	125	5071	(lhood=-59862.5927022217)
+
+Brent minimization result: NPOP2 = 988.0000000000 (lhood = -59862.6190091089)
+
+Current parameters:
+20550	988	125	5071	(lhood=-59862.6190091089)
+
+Brent minimization result: NANC = 115.0000000000 (lhood = -59862.0942840534)
+
+Current parameters:
+20550	988	115	5071	(lhood=-59862.0942840534)
+
+Brent minimization result: TDIV = 5071.0000000000 (lhood = -59862.2330735171)
+
+Current parameters:
+20550	988	115	5071	(lhood=-59862.2330735171)
+
+
+Iter 40	Curr best params:	20550	988	112	5071	lhood=-59862.0140611441
+
+Program total execution time: 25.878 seconds
+
