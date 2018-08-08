@@ -3,20 +3,20 @@ library(GENIE3)
 library(data.table)
 
 #Load data
-tpm <- read.csv("workshop-iussi2018/Mariana/tpm.csv")
+fpkm <- read.csv("workshop-iussi2018/Jasper_fpkm.csv")
 
 #Load gene descriptions, including drosophila melanogaster orthologs
 aName <- fread("workshop-iussi2018/Mariana/gene_descriptions.tsv",sep="\t")
 
 #Get genes as rownames
-rownames(tpm) = tpm$gene_id
-tpm = tpm[,-c(1)]
+rownames(fpkm) = fpkm$gene_id
+fpkm = fpkm[,-c(1)]
 
 #Filter out genes with zero expression
-tpm = tpm[rowSums(tpm) > 0,]
+fpkm = fpkm[rowSums(fpkm) > 0,]
 
 #hyperbolic sine transformation. This normalizes the data; is similar to log but defined at 0
-tpm = log(tpm + sqrt(tpm ^ 2 + 1))
+fpkm = log(fpkm + sqrt(fpkm ^ 2 + 1))
 
 #Filter for genes in the ILP-2 module
 mrjp = aName$gene_id[grepl("Mrjp",aName$gene_id)]
@@ -26,7 +26,7 @@ insulin = aName$gene_id[grepl("insulin",aName$description)]
 
 genes_mod <- c(mrjp,vg,jh,insulin)
 
-sub = tpm[genes_mod,]
+sub = fpkm[genes_mod,]
 
 #Construct a network! 
 network <- GENIE3(as.matrix(sub))
