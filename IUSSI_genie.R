@@ -41,33 +41,35 @@ netList_cut <- netList[netList$weight > cut_off,]
 
 #Filter list for connections containing a specific gene...pick whatever you want!
 focus_name <- "Vg"
-g_out <- netList_cut[netList_cut$regulatory.gene == focus_name,]
-g_in <- netList_cut[netList_cut$target.gene == focus_name,]
+g_out <- netList_cut[netList_cut$regulatoryGene == focus_name,]
+g_in <- netList_cut[netList_cut$targetGene == focus_name,]
 
 #Find the gene description of genes connected to ILP-2
-g_out = merge(g_out,aName,by.x="target.gene",by.y="gene_id",sort = FALSE)
-g_in = merge(g_in,aName,by.x="regulatory.gene",by.y="gene_id",sort = FALSE)
+g_out = merge(g_out,aName,by.x="targetGene",by.y="gene_id",sort = FALSE)
+g_in = merge(g_in,aName,by.x="regulatoryGene",by.y="gene_id",sort = FALSE)
 
 #Combine regulatory and target genes
 g_all <- rbind(g_out,g_in)
 
 #Get full list of genes connected to ILP-2
-genes <- unique(c(as.character(g_all$target.gene),as.character(g_all$regulatory.gene)))
+genes <- unique(c(as.character(g_all$targetGene),as.character(g_all$regulatoryGene)))
 
 #output to igraph
 nodes <- aName[aName$gene_id %in% genes,]
 nodes <- nodes[!duplicated(nodes$description)]
 #nodes <- nodes[,c(2,1)]
-edges <- netList_cut[netList_cut$regulatory.gene %in% nodes$gene_id & 
-                       netList_cut$target.gene %in% nodes$gene_id,]
+edges <- netList_cut[netList_cut$regulatoryGene %in% nodes$gene_id & 
+                       netList_cut$targetGene %in% nodes$gene_id,]
 colnames(edges) = c("from","to","weight")
 
 #Construct network and plot it
 net <- graph_from_data_frame(d=edges, vertices=nodes, directed=T) 
 plot(net, edge.arrow.size=.4,vertex.label = nodes$description,margin=c(0,0,0,0))
-plot(net, edge.arrow.size=.4,vertex.label = nodes$description,margin=c(0,0,0,0),
-     layout=layout_in_circle)
 
+#The names are big, so you could use numbers as codes
+nodes$num = seq(1,nrow(nodes))
+plot(net, edge.arrow.size=.4,margin=c(0,0,0,0),vertex.label = nodes$num,vertex.size=20)
+head(nodes)
 
 #Other things to try with igraph: vary number of genes you keep, change edge weight,
 #add color, change the layout if desired. 
