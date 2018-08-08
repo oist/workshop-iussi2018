@@ -32,7 +32,7 @@ sub = tpm[genes_mod,]
 network <- GENIE3(as.matrix(sub))
 
 #Transform matrix into list of links, sorted by weight
-netList <- get.link.list(network)
+netList <- getLinkList(network)
 
 #Have to cut off links somewhere. Formally, could generate "null" distribution of connection weights.
 #Here, just pick a cut-off (this is a number you can play with)
