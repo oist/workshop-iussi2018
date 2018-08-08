@@ -39,7 +39,7 @@ netList <- getLinkList(network)
 cut_off <- quantile(netList$weight,0.85)
 netList_cut <- netList[netList$weight > cut_off,]
 
-#Filter list for connections containing a specific gene
+#Filter list for connections containing a specific gene...pick whatever you want!
 focus_name <- "Vg"
 g_out <- netList_cut[netList_cut$regulatory.gene == focus_name,]
 g_in <- netList_cut[netList_cut$target.gene == focus_name,]
